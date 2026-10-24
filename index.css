@@ -1,0 +1,15 @@
+:root { color-scheme: dark; }
+* { margin: 0; padding: 0; }
+body { line-height: 32px; }
+hr, small { line-height: 16px; }
+ul { list-style-type: none; }
+li { margin-left: 32px; }
+hr { clear: both; border: 8px; border-radius: 4px; margin: 0; padding: 0; }
+.caret {   cursor: pointer;   user-select: none; }
+.caret::before { content: "\25B6"; display: inline-block; margin-right: 16px; }
+.caret-down::before { transform: rotate(90deg); }
+.nested { display: none; }
+.active { display: block; }
+.module { float: left; margin: 0 16px 16px 0; }
+.right { float: right; }
+.icon { float: left; height: 24px; width: 24px; margin: 0 8px 8px 0; }
